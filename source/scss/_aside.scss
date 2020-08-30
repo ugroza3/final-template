@@ -1,0 +1,40 @@
+.aside-wrap{
+position: absolute;
+top: 8%;
+left: 0;
+ @include backColor;
+ width: 5%;
+ text-align: center;
+}
+.aside-wrap__ul{
+    ul{
+        @include fontPrimary;
+        .home{   
+            background: url(../img/nav/home.png) no-repeat;
+            @include asideStyle;
+        }
+        .users{
+            background: url(../img/nav/user.png) no-repeat;
+            @include asideStyle;
+        }
+        .stat{
+            background: url(../img/nav/bar-chart.png) no-repeat;
+            @include asideStyle;
+        }
+        .settings{
+            background: url(../img/nav/settings.png) no-repeat;
+            @include asideStyle;
+        }
+        .quires{
+            background: url(../img/nav/information.png) no-repeat;
+            @include asideStyle;
+        }
+    }
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.power-button{
+    margin: 500px 0 50px 0;
+}

@@ -1,0 +1,62 @@
+// Fonts
+@mixin fontPrimary {
+    font-family: 'Lato';
+    font-size: 12px;
+}
+// UL/LI mixin
+@mixin ulStyle{
+    list-style: none;
+}
+// Backgound gradient
+@mixin backColor{
+    background: linear-gradient(to right, #FC755B, #FD5471);
+}
+// Positioning
+@mixin positionCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin navmenuPosition {
+}
+// Shadows
+@mixin shadow {
+    -webkit-box-shadow: 16px 0 29px -5px rgba(0,0,0,0.58);
+    -moz-box-shadow: 16px 0 29px -5px rgba(0,0,0,0.58);
+    box-shadow: 16px 0 29px -5px rgba(0,0,0,0.58);
+}
+// Dotes
+
+
+// Border for header
+@mixin borderHeader {
+    border-right: 1px solid #c2c2c2;
+}
+// searchform
+@mixin search {
+    border: 1px solid #c2c2c2;
+    border-radius: 20px;
+    outline-style: none;
+    padding: 10px 100px 10px 20px;  
+}
+// for UL/LI
+@mixin ul {
+    line-height: 2em;
+    ul{
+        list-style-type: none;
+       li{
+        color: #BFBFBF;
+            h2{
+                color:#FD6565;
+            }
+       } 
+    }
+}
+// ASIDE BACKGROUND POSITION
+@mixin asideStyle{
+    padding-top: 50%;
+    background-position: 50% 30%;
+    color: #fff;
+}
+

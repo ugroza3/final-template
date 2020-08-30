@@ -1,0 +1,31 @@
+.ul-wrapper{
+    margin: 0 auto;
+    margin-left: 80px;
+    width: 95%;
+    background-color: #fff;
+    border-bottom: 1px solid #c2c2c2;
+    -webkit-box-shadow: 0 11px 82px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 11px 82px 0px rgba(0,0,0,0.75);
+    box-shadow: 0 11px 82px 0px rgba(0,0,0,0.75);
+}
+.main-stat{
+    display: flex;
+    justify-content: space-between;
+    @include fontPrimary;
+    font-weight: 900;
+}
+.main-stat__ul{
+    @include ul;
+    padding-left: 2%;
+}
+.main-stat__add{
+    display: flex;
+    align-items: center;
+    h1{
+        a{
+            text-decoration: none;
+            text-transform: none;
+            color: #FD6565
+        }
+    }
+}
